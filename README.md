@@ -1,4 +1,4 @@
-# Todo App mit React/MongoDB und FasAPI
+# Todo App mit React/MongoDB und FastAPI
 
 Basierend auf einem FARM-STACK-Tutorial.
 https://www.youtube.com/watch?v=OzUzrs8uJl8
