@@ -4,10 +4,7 @@
 import motor.motor_asyncio
 from app.model import Todo
 
-client = motor.motor_asyncio.AsyncIOMotorClient(
-    host='mongodb://mongodb:27017',
-    username="admin",
-    password="majo2022")
+client = motor.motor_asyncio.AsyncIOMotorClient(host='mongodb://mongodb:27017')
 database = client.TodoList
 collection = database.todo
 
